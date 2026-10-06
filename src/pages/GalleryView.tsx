@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { getPokemon, getPokemonDetails } from "../api/api"
 import type { Pokemon, PokemonDetails } from "../api/api"
-import "./GalleryView.css"
 
 function GalleryView() {
     const [pokemon, setPokemon] = useState<Pokemon[]>([])
